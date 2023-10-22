@@ -52,40 +52,39 @@ hr{
     margin-left: 10px;
     margin-right: 10px;
     align-items: center;
+    display :flex;
+    justify-content: space-between;
+    padding : 10px;
 }
 .logo-main {
     height: 100px;
     display: block;
     margin : 0px auto;
 }
-/* .bar2 {
-    position: relative;
-    text-align: right;
-} */
 
 .sign {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column; /* Make the buttons stack vertically */
+    align-items: center; /* Align buttons vertically centered */
 }
 
 .btn {
     display: block;
-    margin-bottom: 5px; /* Add some vertical spacing between the buttons */
-}
-/*.bar2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    width: 100%; /* Make the buttons full width within their container */
+    padding: 7px 30px; 
+    border-radius: 14px; 
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 7px; /* Add some vertical spacing between the buttons */
 }
 
-.logo-main {
-    height: 100px;
-}
-
-.sign {
-    display: flex;
-    gap: 10px;
-}
-*/
+/* .btn:hover {
+    background-color: #0056b3;
+} */
