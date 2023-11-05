@@ -3,7 +3,7 @@ body{
 }
 .box{
     width : 500px;
-    /* border  : 2px solid grey; */
+    /* border  : 2px solid grey; */                  /*review : lgtm*/
     padding : 10px;
     border-radius : 14px;
     margin : 100px auto;
